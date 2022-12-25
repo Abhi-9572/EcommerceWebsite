@@ -489,3 +489,63 @@ ul{
     width: 100%;
 }
 }
+
+.hero
+{
+  
+  min-height: 100vh;
+    margin-top: -6rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://js-comfy-home-furniture-store.netlify.app/images/main-bcg.jpeg') center/cover;
+    display: grid;
+    place-items: center;
+    color: var(--clr-white);
+  
+}
+
+h1, h2, h3, h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  color: #ffffff;
+}
+
+element.style {
+}
+.hero h1 {
+    font-weight: 700;
+}
+.hero-container>h3{
+
+  font-size: 2rem;
+}
+.hero-container>a{
+  font-size: 25px;
+  border: 1px solid white;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.text-slanted {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4rem;
+}
+h1{
+  font-size: 3rem;
+}
+.hero h1 {
+  font-weight: 700;
+}
+.our-product{
+  color: #000;
+  /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 768px) {
+  .nav-icon {
+    display: none;
+  }
+  .nav-side{
+    display: none;
+  }
+}
